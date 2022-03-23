@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Rosario:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+h1 {
+    font-family: 'Rosario', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    padding: 60px 0;
+}
+.header_item {
+     display: flex;
+     justify-content: space-between;
+    align-items: center;
+}
+.menu_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+    margin: 0 20px;
+}
+.search-img {
+    background: #F3FBF8;
+    margin-right: 31px;
+}
+.buy-img {
+    background: #F3FBF8;
+}
+.btn {
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #09A66D;
+    border-radius: 8px;
+    padding: 10px 23px;
+    transition: 0.5s;
+
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #09A66D;
+}
+.hero {
+    background: #F3FBF8;
+    padding: 92px 0 32px 0;
+    position: relative;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+}
+.desc {
+    margin-bottom: 57px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+
+}
+.hero-position {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.row {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+
+}
+.col-3 {
+    width: 33.333%;
+    padding: 0 15px;
+}
+.hero-item {
+    display: flex;
+    height: 116px;
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
