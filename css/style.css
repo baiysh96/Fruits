@@ -35,13 +35,30 @@ h1 {
     line-height: 24px;
     color: #222222;
     margin: 0 20px;
+    position: relative;
+}
+span {
+    width: 10px;
+    height: 2px;
+    color: #09A66D;
+}
+span:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #09A66D;
 }
 .search-img {
     background: #F3FBF8;
     margin-right: 31px;
+    cursor: pointer;
 }
 .buy-img {
     background: #F3FBF8;
+    cursor: pointer;
 }
 .btn {
     width: 160px;
@@ -110,10 +127,15 @@ h1 {
 .hero-item {
     display: flex;
     height: 116px;
+    background: #FFFFFF;
+    padding: 30px;
 }
 .hero-content {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+}
+.icon {
+    background: #F3FBF8;
 }
